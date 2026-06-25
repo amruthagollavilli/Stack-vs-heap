@@ -1,6 +1,6 @@
-# 📌 Stack vs Heap in Java (Practical Understanding)
+#  Stack vs Heap in Java 
 
-## 🎯 Objective
+## Objective
 This repository demonstrates how Java memory works using execution-based examples.
 
 The goal is to understand:
@@ -10,7 +10,7 @@ The goal is to understand:
 
 ---
 
-## 🧠 Core Memory Model
+## Core Memory Model
 
 ### Stack
 - Stores method call frames
@@ -25,13 +25,7 @@ The goal is to understand:
 
 ---
 
-## 🔥 Key Rule
-
-> An object is eligible for Garbage Collection when it is no longer reachable from any active stack reference.
-
----
-
-## 🧪 Experiments in This Repo
+##  Experiments in This Repo
 
 ### 1. Local vs Instance Variable
 - Local variables exist only inside method execution (stack frame)
@@ -57,7 +51,7 @@ The goal is to understand:
 
 ---
 
-## 🧠 Important Insights
+## Important Insights
 
 - Objects are always stored in Heap
 - References are stored in Stack
@@ -66,23 +60,7 @@ The goal is to understand:
 
 ---
 
-## ⚠️ Common Mistakes to Avoid
-
-- Thinking objects are stored in Stack ❌
-- Confusing variable scope with object lifetime ❌
-- Assuming local variables control object deletion ❌
-
----
-
-## 📂 Files
-
-- `LocalVsInstance.java` → Stack vs instance behavior  
-- `ReturnVsNoReturn.java` → Object reachability  
-- `ReferenceOverwrite.java` → GC eligibility demonstration  
-
----
-
-## 🚀 Summary
+## Summary
 
 This project proves that Java memory management is **reference-driven**, not scope-driven.
 
